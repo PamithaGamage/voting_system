@@ -48,15 +48,3 @@ if ($password !== $confirm_password) {
 }
 
 
-/*
-$stmt = $conn->prepare($sql);
-$stmt->bind_param("ssss", $username, $hashed_password, $dob, $phone_number);
-
-if ($stmt->execute()) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-$stmt->close();
-$conn->close();*/
